@@ -1,0 +1,16 @@
+print("Olá, bem vindo ao mundo da programação Python")
+
+mensagem = "Olá, bem vindo ao mundo da programação Python... :)"
+print(mensagem)
+
+mensagem = input("Por favor, digite um texto qualquer: ")
+print("Você digitou: "+mensagem)
+
+mensagem = "Olá, bem vindo ao mundo da programação Python... :)"
+print(mensagem.lower())
+
+mensagem = "Olá, bem vindo ao mundo da programação Python... :)"
+print(mensagem.title())
+
+mensagem = "Olá, bem vindo ao mundo da programação Python... :)"
+print(mensagem.upper())
