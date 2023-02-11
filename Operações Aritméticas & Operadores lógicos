@@ -1,0 +1,25 @@
+# Operações Aritméticas
+A = 10
+B = 20
+# Adição
+c = A + B
+print(c)
+# Subtração
+d = A - B
+print(d) 
+# Multiplicação
+e = A * B
+print(e)
+# Divisão
+f = A / B
+print(f)
+# Exponenciação
+g = A ** B
+print(g)
+
+# Operadores lógicos
+# and - or - not
+a = 21
+b = 24
+c = not((not a))
+print(c)
