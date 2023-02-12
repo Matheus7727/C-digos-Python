@@ -1,0 +1,21 @@
+# laço for simples
+# sequencia = [10,12,13,14,15,16]
+# for x in sequencia:
+     # codigo
+     # codigo
+     # codigo
+
+sequencia = [10,11,12,13,14,15,16]
+for x in sequencia:
+    print("Número: %d " % (x))
+
+# laço for simples com tuplas
+# tupla = [10,"Laranja",13]
+# for x in sequencia:
+     # codigo
+     # codigo
+     # codigo
+
+tupla = [10,"Laranja",13,"Carro",2+4j,0xff, 0o22, "Marco Maddo"]
+for x in tupla:
+    print("Registro: ",x)
