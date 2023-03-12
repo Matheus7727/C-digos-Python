@@ -1,0 +1,6 @@
+# Operadores lógicos
+# and - or - not
+a = 21
+b = 24
+c = not((not a))
+print(c)
