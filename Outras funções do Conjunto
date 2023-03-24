@@ -1,0 +1,11 @@
+conjunto_a = {1, 2, 3}
+conjunto_b = {4, 5, 6}
+conjunto_b = {3, 4, 5}
+uniao = conjunto_a.union(conjunto_b)
+print(uniao)
+
+intersecao = conjunto_a.intersection(conjunto_b)
+print(intersecao)
+
+diferenca = conjunto_a.difference(conjunto_b)
+print(diferenca)
