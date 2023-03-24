@@ -1,0 +1,6 @@
+lista = [3, 2, 1, 6, 9]
+lista.sort()
+print(lista)
+
+lista.reverse()
+print(lista)
