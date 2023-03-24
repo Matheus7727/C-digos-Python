@@ -1,0 +1,17 @@
+pilha = []
+pilha.append(1)
+pilha.append(2)
+pilha.append(3)
+print(pilha)
+
+pilha.append(4)     ##último elemento inserido
+print(pilha)
+
+pilha.pop()
+##retorna e remove o último elemento
+print(pilha)
+## [1, 2, 3]     ← o 3 passa a ser o último elemento
+pilha.pop()
+## 3     ← retorna e remove o último elemento
+print(pilha)
+## [1, 2]     ← o 2 passa a ser o último elemento
