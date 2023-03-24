@@ -1,0 +1,8 @@
+lista_a = [1, 2, 3]
+lista_b = [4, 5, 6]
+lista_a.append(lista_b)  ##lista_b foi adicionada dentro da lista_a como um elemento único
+print(lista_a)
+
+lista_a = [1, 2, 3]
+lista_a.extend(lista_b)  ##lista_a e lista_b foram concatenadas
+print(lista_a)
