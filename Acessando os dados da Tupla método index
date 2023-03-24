@@ -1,0 +1,6 @@
+tupla = ('a', 'b', 'c')
+indice_a = tupla.index('a')
+print(indice_a)
+
+##Assim como nas listas, podemos utilizar 
+o método index para encontrar o índice de um elemento.
