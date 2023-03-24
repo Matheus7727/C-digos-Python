@@ -1,0 +1,10 @@
+lista = list()
+lista.append('carro')
+print(lista)
+
+lista.append('moto')
+lista.append('avião')
+print(lista)
+
+lista.insert(1, 'bicicleta')     ## Inserimos o elemento bicicleta na posição de índice 1
+print(lista)
