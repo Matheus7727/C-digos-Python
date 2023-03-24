@@ -1,0 +1,3 @@
+tupla = ('a', 'b', 'c')
+item = tupla[2]
+print(item)
