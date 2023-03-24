@@ -1,0 +1,7 @@
+conjunto = {'a', 1, 2020, (28, 12), 'a'}     ##itens duplicados são automaticamente removidos
+for elemento in conjunto:
+       print(elemento)
+
+
+##Como os Conjuntos não armazenam seus elementos de forma sequencial, 
+eles são retornados de forma aleatória.
