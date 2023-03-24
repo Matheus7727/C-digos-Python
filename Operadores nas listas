@@ -1,0 +1,16 @@
+lista1 = [1, 2, 3]
+lista2 = [1, 2, 3]
+lista3 = [4, 5, 6]
+print(lista1 == lista2)
+print(lista1 == lista3)
+
+if 3 in lista1:
+    print('Achei o 3!!!')
+    nova_lista = lista1 + lista3
+    print(nova_lista)
+
+    lista_repetida = lista1 * 4
+    print(lista_repetida)
+
+##Todos esses operadores retornam algum objeto, seja um booleano (True ou False), 
+que pode ser utilizado em condicionantes if, seja uma nova lista, como acontece com o operador concatenação (+).
