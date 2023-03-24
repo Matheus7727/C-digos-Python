@@ -1,0 +1,17 @@
+fila = []
+fila.append(1)
+fila.append(2)
+fila.append(3)
+print(fila)
+
+fila.append(4)    ## último elemento inserido
+print(fila)
+
+fila.pop(0)
+## 1     ← retorna e remove o primeiro elemento
+print(fila)
+##[2, 3, 4]     ← o 2 passa a ser o primeiro elemento
+fila.pop()
+## 2     ← retorna e remove o primeiro elemento
+print(fila)
+## [3, 4]     ← o 3 passa a ser o primeiro elemento
