@@ -1,0 +1,7 @@
+conjunto = set()
+conjunto.add(1)
+conjunto.add(2)
+print(conjunto)
+
+conjunto.add(2)     ##por não conter itens duplicados, a inserção é ignorada
+print(conjunto)
