@@ -1,0 +1,12 @@
+decimal_num = 4
+hex_num = hex(decimal_num)
+print(hex_num)
+decimal_num = 7
+hex_num = hex(decimal_num)
+print(hex_num)
+decimal_num = 44
+hex_num = hex(decimal_num)
+print(hex_num)
+hex_num = 0x80685
+decimal_number = (hex_num)
+print(decimal_number)
