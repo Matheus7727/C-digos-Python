@@ -1,0 +1,10 @@
+def somaL(lista1):
+  soma = 0
+  for i in lista1:
+    soma = soma + i
+  return soma
+
+lista1 = [ 1, 2, 5, 1, 2, 1, 5, 2, 5, 1, 2, 5]
+soma = somaL(lista1)
+print(lista1)
+print("Soma dos elementos = {0:.2f}".format(soma))
