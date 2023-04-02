@@ -1,0 +1,22 @@
+class Pessoa:
+  def __init__(self, nome, ender):
+    self.set_nome(nome)
+    self.set_ender(ender)
+
+  def set_nome(self, nome):
+    self.nome=nome
+
+  def set_ender(self, ender):
+    self.ender=ender
+
+  def get_nome(self):
+    return self.nome
+
+  def get_ender(self):
+    return self.ender
+
+Pessoa1 = Pessoa("Maria", "rua 00111")
+Pessoa2 = Pessoa("João", "rua 01644")
+
+print(f'Nome: {Pessoa1.get_nome()}, Endereço: {Pessoa1.get_ender()}')
+print(f'Nome: {Pessoa2.get_nome()}, Endereço: {Pessoa2.get_ender()}')
