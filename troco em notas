@@ -1,0 +1,32 @@
+notas001  = int(input("valor: "))
+
+print(notas001)
+
+notas100 = notas001//100
+notas001 = notas001%100
+
+notas50 = notas001//50
+notas001 = notas001%50
+
+notas20 = notas001//20
+notas001 = notas001%20
+
+notas010 = notas001//10
+notas001 = notas001%10
+
+notas005 = notas001//5
+notas001 = notas001%5
+
+notas002 = notas001//2
+notas001 = notas001%2
+
+notas001 = notas001//1
+notas001 = notas001%1
+
+
+print(f'{notas100} nota(s) de 100,00')
+print(f'{notas50} nota(s) de 50,00')
+print(f'{notas20} nota(s) de 20,00')
+print(f'{notas010} nota(s) de 10,00')
+print(f'{notas005} nota(s) de 5,00')
+print(f'{notas002} nota(s) de 2,00')
