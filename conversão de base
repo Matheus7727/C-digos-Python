@@ -1,0 +1,13 @@
+decimal_num = int(input('Digite um numero: '))
+hex_num = hex(decimal_num)
+print(hex_num)
+decimal_num = int(input('Digite um numero: '))
+hex_num = hex(decimal_num)
+print(hex_num)
+decimal_num = int(input('Digite um numero: '))
+hex_num = hex(decimal_num)
+print(hex_num)
+
+hex_num = input('Digite um numero ex: ')
+decimal_num = int(hex_num, 16)
+print(decimal_num)
