@@ -1,0 +1,13 @@
+while True:
+    num = input()
+    if num.startswith('-'):
+        break
+
+    if num.startswith('0x'):
+        # hexadecimal para decimal
+        num_decimal = int(num, 16)
+        print(num_decimal)
+    else:
+        # decimal para hexadecimal
+        num_hex = hex(int(num))[2:]
+        print('0x' + num_hex.upper())
