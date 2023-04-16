@@ -1,0 +1,23 @@
+def menor_valor_nao_gerado(arr):
+    arr.sort()
+    menor = 1
+    for x in arr:
+        if x <= menor:
+            menor += x
+        else:
+            break
+    return menor
+
+t = int(input())
+for i in range(t):
+    n = int(input())
+    arr = list(map(int, input().split()))
+    print(menor_valor_nao_gerado(arr))
+    
+    #Para cada caso de teste, a função 'menor_valor_nao_gerado' recebe o array de inteiros 'arr', ordena-o
+    em ordem crescente e, em segida, percorre o array verificando se o elemento atual é maior do que a soma dos elementos
+    anteriores mais 1. Sefor, significa que o menor valor não que não pode ser gerado é a soma dos
+    elementos anteriores e continuar verificando os próximos elemnetos.
+    
+    #no loop principal do progra, lemos o numero 'n' de elementos do array e, em seguida, lemos o array 'n'
+   para cada caso de teste, imprimimos o menor valor que não pode ser gerado pelo array 'arr'.
