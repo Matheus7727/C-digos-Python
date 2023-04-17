@@ -14,7 +14,4 @@ while True:
     for codigo in codigos_ordenados:
         print(codigo)
         
-#o codigo lê a quantidade de cadastros 'n', em seguida l~e 'n' codigos de livros e armazena em uma lista 'codigos'
-então, ultiliza a função 'sorted()' para ordenar a lista de codigos em ordem crescente e armazena em uma nova lista
-'codigos_ordenador'. Por fim cada codigo ordenado atraves de um loop 'for'.
-#O laço 'whilw' e o bloco try-execept são ultilizados para lidar com o fim do arquivo.
+
