@@ -1,0 +1,13 @@
+a, b = 1, 2
+print('Antes da toca')
+print(f"O valor das variáveis: a={a}, b={b}")
+#Primeira troca
+temp = a
+a = b
+b = temp
+print('Primeira troca')
+print(f"O valor das variáveis: a={a}, b={b}")
+# Segunda troca
+a, b = b, a
+print('Primeira troca')
+print(f"O valor das variáveis: a={a}, b={b}")
