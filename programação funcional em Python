@@ -1,0 +1,9 @@
+#programação funcional em Python
+lista_numeros = [9.2352, 7.5423, 3.9423, 6.3432]
+
+lista_precisao = {2,2,3,3,4,5,6,}
+
+arrendondamento = lambda x,y: round(x,y)
+
+resultado = list(map(arrendondamento, lista_numeros,lista_precisao))
+print(resultado)
