@@ -1,0 +1,26 @@
+import random
+
+def gerar_cpf():
+    cpf = [random.randint(0, 9) for _ in range(9)]
+
+    # Calcula o primeiro dígito verificador
+    soma = sum([cpf[i] * (10 - i) for i in range(9)])
+    resto = soma % 11
+    if resto < 2:
+        cpf.append(0)
+    else:
+        cpf.append(11 - resto)
+
+    # Calcula o segundo dígito verificador
+    soma = sum([cpf[i] * (11 - i) for i in range(10)])
+    resto = soma % 11
+    if resto < 2:
+        cpf.append(0)
+    else:
+        cpf.append(11 - resto)
+
+    return ''.join(map(str, cpf))
+
+# Exemplo de uso
+cpf_gerado = gerar_cpf()
+print(cpf_gerado)
