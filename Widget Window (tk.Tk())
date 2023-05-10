@@ -1,0 +1,15 @@
+import tkinter as tk           # É feita a importação da biblioteca Tkinter
+janela = tk.Tk()               # É criada uma instância da classe Tk no objeto “janela
+janela.title(" Aplicação GUI") # O método “title” é usado para definir um título que aparece no topo da janela, no caso, “Aplicação GUI”
+janela.mainloop()              # A aplicação inicia o loop de evento principal da janela
+
+
+import tkinter as tk
+janela = tk.Tk()
+janela.title(" Aplicação GUI NÃO Dimensionável") 
+janela.resizable(False, False)
+janela.mainloop()
+
+#A principal diferença desse exemplo em relação 
+ao anterior está na linha 4, 
+onde a propriedade de redimensionar a janela é colocada como “Falso”.
