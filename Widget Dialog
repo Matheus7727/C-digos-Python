@@ -1,0 +1,13 @@
+import tkinter as tk
+from tkinter import messagebox as mb
+def resposta():
+    # Linha 4, 6, 7 e 9 - São instanciados componentes “messageDialog
+   mb.showerror("Resposta", "Desculpe, nenhuma resposta disponível!") #Caso o usuário pressione o botão “Resposta”, aparecerá uma janela com a mensagem “Desculpe, nenhuma resposta disponível!”, conforme a figura
+def verificacao():
+   if mb.askyesno('Verificar', 'Realmente quer sair?'): #aso o usuário tenha pressionado o botão “Sair”, aparecerá uma janela com a mensagem “Realmente quer sair?”, conforme mostrado na figura.
+      mb.showwarning('Yes', 'Ainda não foi implementado') #Caso o usuário pressione o botão “Yes”, aparecerá uma janela com a mensagem “Ainda não foi implementado”, conforme mostra a imagem.
+   else:
+      mb.showinfo('No', 'A opção de Sair foi cancelada') #Por outro lado, se o usuário pressionar o botão “No” da janela da imagem, será exibida uma janela com a mensagem “A opção de Sair foi cancelada”, conforme mostrado na imagem.
+tk.Button(text='Sair', command=verificacao).pack(fill=tk.X)
+tk.Button(text='Resposta', command=resposta).pack(fill=tk.X)
+tk.mainloop()
